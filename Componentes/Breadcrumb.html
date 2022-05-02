@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Componentes</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                    <strong>Proyecto Componentes Bootstrap</strong>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+
+    
+    <section class="jumbotron text-center my-5">
+        <div class="container">
+            <h1 class="jumbotron-heading">Breadcrumb</h1>
+            <p class="lead text-muted">Indique la ubicación de la página actual dentro de una jerarquía de
+                navegación que agrega automáticamente separadores a través de CSS.</p>
+        </div>
+    </section>
+
+
+    <div class="container-md text-center margin-table bg-dark text-light w-100 p-3">
+        <h1 class="fs-5">Example</h1>
+    </div>
+
+    <div class="container my-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+          </nav>
+          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+    </div>
+
+    <div class="container-md text-center margin-table bg-dark text-light w-100 p-3">
+        <h1 class="fs-5">Dividers</h1>
+    </div>
+
+
+    <div class="container my-3">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+          </nav>
+
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+          </nav>
+
+          <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+          </nav>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

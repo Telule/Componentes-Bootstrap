@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Componentes</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                    <strong>Proyecto Componentes Bootstrap</strong>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+
+    
+    <section class="jumbotron text-center my-5">
+        <div class="container">
+            <h1 class="jumbotron-heading">Toasts</h1>
+            <p class="lead text-muted">Envía notificaciones a tus visitantes con un brindis, un mensaje de
+                alerta ligero y fácilmente personalizable.</p>
+        </div>
+    </section>
+
+
+    <div class="container-md text-center margin-table bg-dark text-light w-100 p-3">
+        <h1 class="fs-5">Example</h1>
+    </div>
+
+    <div class="container my-3">
+        <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="...">
+              <strong class="me-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Hello, world! This is a toast message.
+            </div>
+          </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

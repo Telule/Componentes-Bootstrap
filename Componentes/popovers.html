@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Componentes</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                    <strong>Proyecto Componentes Bootstrap</strong>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="jumbotron text-center my-5">
+        <div class="container">
+            <h1 class="jumbotron-heading">Popovers</h1>
+            <p class="lead text-muted">Documentación y ejemplos para agregar popovers de Bootstrap, como los
+                que se encuentran en iOS, a cualquier elemento de su sitio.
+            </p>
+        </div>
+    </section>
+
+
+    <div class="container-md text-center margin-table bg-dark text-light w-100 p-3">
+        <h1 class="fs-5">Example</h1>
+    </div>
+
+    <div class="container my-3">
+        <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+    </div>
+
+    <div class="container-md text-center margin-table bg-dark text-light w-100 p-3">
+        <h1 class="fs-5">Four Directions</h1>
+    </div>
+
+
+    <div class="container my-3">
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+            Popover on top
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+            Popover on right
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+            Popover on bottom
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+            Popover on left
+          </button>
+    </div>
+
+
+    <div class="container-md text-center margin-table bg-dark text-light w-100 p-3">
+        <h1 class="fs-5">Dismiss on next click
+        </h1>
+    </div>
+
+    <div class="container my-3">
+        <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+    </div>
+
+    <div class="container-md text-center margin-table bg-dark text-light w-100 p-3">
+        <h1 class="fs-5">Disabled elements
+        </h1>
+    </div>
+
+
+    <div class="container my-3">
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Disabled popover">
+            <button class="btn btn-primary" type="button" disabled>Disabled button</button>
+          </span>
+    </div>
+
+
+
+</body>
+
+</html>
