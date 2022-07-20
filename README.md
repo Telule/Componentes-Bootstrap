@@ -1,2 +1,2 @@
 # Proyecto_Componentes
-Proyecto Final sobre loscomponentes de Bootstap
+Proyecto Final sobre los componentes de Bootstap
